@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MyImagesApp.Views.ProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyImagesApp.Views"
+             xmlns:vml="clr-namespace:MyImagesApp.VML"
+             vml:ViewModelLocator.AutoHookedUpViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="534" d:DesignWidth="670">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="463" Margin="140,20,0,0" VerticalAlignment="Top" Width="390" Background="White">
+            <Image Name="imgProfile" HorizontalAlignment="Left" Height="110" Margin="120,10,0,0" VerticalAlignment="Top" Width="150" Source="../Images/img78.jpg" StretchDirection="DownOnly" Stretch="UniformToFill"/>
+            <TextBox Name="txtName" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="28" Margin="120,120,0,0" TextWrapping="Wrap" Text="" FontFamily="Kristen ITC" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="150" BorderBrush="Transparent" IsReadOnly="True" FontSize="16"/>
+            <Label Name="labelUsername" Content="Username:" HorizontalAlignment="Left" Margin="70,202,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Kristen ITC" Width="115"/>
+            <Label Name="LabelPassword" Content="Old Password:" HorizontalAlignment="Left" Margin="70,264,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Kristen ITC" Width="115"/>
+            <Label x:Name="LabelNewPassword" Content="New Password:" HorizontalAlignment="Left" Margin="70,326,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Kristen ITC" Width="115"/>
+            <TextBox Name="txtUsername" HorizontalAlignment="Left" Height="29" Margin="185,202,0,0" TextWrapping="Wrap" Text="{Binding User.Username, Mode=TwoWay}" FontFamily="Kristen ITC" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="142" BorderBrush="Gray" FontSize="14"/>
+            <PasswordBox Name="txtOldPassword" HorizontalAlignment="Left" Height="29" Margin="185,264,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" FontFamily="Kristen ITC" Width="142" BorderBrush="Gray" FontSize="14"/>
+            <PasswordBox x:Name="txtNewPassword" HorizontalAlignment="Left" Height="29" Margin="185,326,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="142" FontFamily="Kristen ITC" BorderBrush="Gray" FontSize="14"/>
+            <Button Name="btnEditProfile" Content="Edit Profile" HorizontalAlignment="Left" Margin="158,153,0,0" VerticalAlignment="Top" Width="80" Height="28" Background="Transparent" FontFamily="Kristen ITC" FontWeight="Bold" Click="btnEditProfile_Click"/>
+            <Button Name="btnApplyChanges" Content="Apply Changes" Command="{Binding ApplyChangesCommand}" HorizontalAlignment="Left" Margin="120,397,0,0" VerticalAlignment="Top" FontFamily="Kristen ITC" Width="150" Height="34" Background="Transparent" FontWeight="Bold" Click="btnApplyChanges_Click"/>
+            <TextBlock Name="validUsername" HorizontalAlignment="Left" Margin="183,236,0,0" TextWrapping="Wrap" Text="{Binding User.ValidationErrors[Username]}" VerticalAlignment="Top" Height="23" Width="207" Foreground="Red" FontSize="10"/>
+            <TextBlock x:Name="validOldPassword" HorizontalAlignment="Left" Margin="183,298,0,0" TextWrapping="Wrap" Text="{Binding ValidateOldPassword}" VerticalAlignment="Top" Height="23" Width="207" Foreground="Red" FontSize="10"/>
+            <TextBlock x:Name="validNewPassword" HorizontalAlignment="Left" Margin="183,360,0,0" TextWrapping="Wrap" Text="{Binding User.ValidationErrors[Password]}" VerticalAlignment="Top" Height="23" Width="207" Foreground="Red" FontSize="10"/>
+            <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="153,436,0,0" VerticalAlignment="Top" Width="78" Height="24" Background="Transparent" FontSize="11" FontFamily="Kristen ITC" BorderBrush="Transparent" Click="btnBack_Click"/>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

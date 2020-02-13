@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Users>
+  <User>
+    <Username>mika_radovic</Username>
+    <Password>mikammm</Password>
+    <Image>
+      <Title>Coffe</Title>
+      <Description>In love &lt;3</Description>
+      <Date>10/02/2019 16:51:31</Date>
+      <Path>d:\Milijana\Desktop\51604204_2360320090918681_5438326090282041344_n.jpg</Path>
+    </Image>
+    <Image>
+      <Title>Books</Title>
+      <Description>Huh.. :'(</Description>
+      <Date>10/02/2019 10:25:14</Date>
+      <Path>d:\Milijana\Pictures\large (3).jpg</Path>
+    </Image>
+    <Image>
+      <Title>Favourite</Title>
+      <Description>^^</Description>
+      <Date>11/02/2019 00:48:57</Date>
+      <Path>d:\Milijana\Pictures\poquito de todo\Y88vyKEltx.png</Path>
+    </Image>
+    <Image>
+      <Title>#Magic </Title>
+      <Description>*  *  *  * </Description>
+      <Date>11/02/2019 00:51:04</Date>
+      <Path>d:\Milijana\Pictures\poquito de todo\large (11).jpg</Path>
+    </Image>
+  </User>
+  <User>
+    <Username>ceca</Username>
+    <Password>ceca123</Password>
+    <Image>
+      <Title>#RainyDay</Title>
+      <Description />
+      <Date>10/02/2019 18:37:41</Date>
+      <Path>d:\Milijana\Pictures\poquito de todo\large (5).jpg</Path>
+    </Image>
+    <Image>
+      <Title>#Il pleut</Title>
+      <Description>J'adore quand il pleut . . .</Description>
+      <Date>10/02/2019 23:53:48</Date>
+      <Path>d:\Milijana\Pictures\poquito de todo\PNAMteuv6d.png</Path>
+    </Image>
+  </User>
+  <User>
+    <Username>dada_bat</Username>
+    <Password>dadamala</Password>
+    <Image>
+      <Title>Yummmy</Title>
+      <Description>Sweets ^^</Description>
+      <Date>10/02/2019 19:11:35</Date>
+      <Path>d:\Milijana\Pictures\poquito de todo\KzQGkkFmZt.png</Path>
+    </Image>
+  </User>
+  <User>
+    <Username>mika</Username>
+    <Password>mika123</Password>
+    <Image>
+      <Title>summer</Title>
+      <Description>^^</Description>
+      <Date>12.02.2020 01:45:51</Date>
+      <Path>D:\PR\Blok5_RacunarskaGrafika\MyImagesApp\MyImagesApp\Images\img20.png</Path>
+    </Image>
+    <Image>
+      <Title>In love</Title>
+      <Description>... </Description>
+      <Date>12.02.2020 01:46:39</Date>
+      <Path>D:\PR\Blok5_RacunarskaGrafika\MyImagesApp\MyImagesApp\Images\img21.png</Path>
+    </Image>
+  </User>
+</Users>
