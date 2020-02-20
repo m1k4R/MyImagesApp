@@ -28,6 +28,7 @@ namespace MyImagesApp
         {
             DataContext = MainWindowViewModel.Instance;
             //DataContext = this;
+            // Gitgitgit
             InitializeComponent();
             
         }
